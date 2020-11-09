@@ -1,0 +1,25 @@
+{
+  "npmScope": "test-fundamental-platform",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "test-fundamental-platform": {
+      "tags": []
+    },
+    "test-fundamental-platform-e2e": {
+      "tags": []
+    },
+    "my-lib": {
+      "tags": []
+    }
+  }
+}
